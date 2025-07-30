@@ -2,7 +2,7 @@
 import React from "react"
 import AiToolCard from "./AiToolCard"
 const aiToolsList = [{
-    name: 'Ai Career QA & ANS',
+    name: 'Ai Career QA & Ans',
     desc: ' Chat with Ai Agent',
     icon: '/chatbot.png',
     button: 'Lets chat',
@@ -40,7 +40,7 @@ const AiTools = () => {
     
   return (
       <div className="mt-7 p-5 border bg-white rounded-xl">
-          <h2> Available AI Tools</h2>
+          <h2> Available AI Tools</h2> 
           <p> Start Building and shape your career with this expensive tools</p>
           <div className="grid grid-cols-1 md;grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-4">
               {aiToolsList.map((tool: any, index) => (

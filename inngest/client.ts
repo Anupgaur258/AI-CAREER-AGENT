@@ -1,3 +1,4 @@
 import { Inngest } from "inngest";
 
-export const inngest = new Inngest({ id: "ai-career-chat" });  // ✅ Use `id` instead of `name`
+// Create a client to send and receive events
+export const inngest = new Inngest({ id: "ai-career-agent" });
